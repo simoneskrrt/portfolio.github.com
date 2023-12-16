@@ -1,0 +1,50 @@
+a {
+    width: fit-content;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 50px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px;
+    gap: 100px;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 600px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+button {
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    gap: 20px;
+}

@@ -1,0 +1,51 @@
+html {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+.skills-text {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  justify-content: space-around;
+  margin: 0 30px;
+  width: 100%;
+  line-height: 30px;
+}
+
+.skills-text p:first-child {
+  width: 50%;
+}
+
+.skills-text div {
+  width: calc(100% - 60px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skills-text div p {
+  width: 50%;
+}
+
+.skills-text p:last-child {
+  text-align: end;
+}
+
+footer {
+  background-color: black!important;
+}
