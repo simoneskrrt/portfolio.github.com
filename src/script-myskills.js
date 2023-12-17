@@ -30,7 +30,9 @@ const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
 scene.add(sphere, pointLight, ambientLight);
 
 camera.position.z += 30;
-camera.position.x -= 20;
+camera.position.x = 50 * Math.sin(0.01 * (window.scrollY /
+(document.documentElement.scrollHeight - window.innerHeight)) *
+100) - 20;
 
 const satellites = [];
 
